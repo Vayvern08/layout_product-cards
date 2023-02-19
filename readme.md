@@ -1,7 +1,7 @@
 # Product cards
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_product-cards/)
-- [TEST REPORT LINK](https://<your_account>.github.io/layout_product-cards/report/html_report/)
+- [DEMO LINK](https://Vayvern08.github.io/layout_product-cards/)
+- [TEST REPORT LINK](https://Vayvern08.github.io/layout_product-cards/report/html_report/)
 
 > Follow [this instruction](https://mate-academy.github.io/layout_task-guideline)
 ___
@@ -32,7 +32,7 @@ and keep it operational. If you change `stars--4` modifier to `stars--2` or
 other - number of selected stars should change correctly.
 - There should be only 2 BEM blocks in your code `card` and `stars` all the others are just card elements
 - Item with the text `Buy` should be a link.
-- Check font styles on the mockup. Use [google fonts](https://fonts.google.com/)
+- Check font styles on the mockup. Use [google fonts](https://fonts.gohogle.com/)
 
 ---
 ![screenshot](./references/card-example.png)

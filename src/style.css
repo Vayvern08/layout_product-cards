@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  background-color: darkblue;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  width: 19.8rem;
+  height: 40.6rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.2rem 1.6rem 1.6rem;
+  border-radius: 0.5rem;
+}
+
+.card__image {
+  width: 16rem;
+  height: 13.4rem;
+  margin-bottom: 4rem;
+}
+
+.card__description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+
+  color: #060b35;
+  margin-bottom: 0.4rem;
+}
+
+.card__code {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #616070;
+  align-self: start;
+  margin-bottom: 1.6rem;
+}
+
+.card__statistic {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+
+.statistic__stars {
+  display: flex;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.stars__star {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-image: url("./images/star.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--4 :not(:last-child) {
+  background-image: url("./images/star-active.svg");
+}
+
+.statistic__review {
+  width: 53px;
+  height: 16px;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  color: #060b35;
+}
+
+.card__price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+
+.price__text {
+  width: 3.1rem;
+  height: 1.8rem;
+
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #616070;
+}
+
+.price__numbers {
+  width: 5rem;
+  height: 1.8rem;
+
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  color: #060b35;
+}
+
+.card__button {
+  width: 16.6rem;
+  height: 4rem;
+  border: 0.1rem solid #00acdc;
+  border-radius: 0.5rem;
+  background-color: #00acdc;
+  color: white;
+  transition: all 1s ease;
+}
+
+.card__button:hover {
+  background-color: white;
+  color: #00acdc;
+
+}
